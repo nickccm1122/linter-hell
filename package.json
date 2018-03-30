@@ -10,12 +10,15 @@
 	"dependencies": {},
 	"scripts": {
 		"ignore-sync": "ignore-sync",
-		"commitmsg": "commitlint -e $GIT_PARAMS"
+		"commitmsg": "commitlint -e $GIT_PARAMS",
+		"lint": "eslint ."
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^6.1.3",
 		"@commitlint/prompt": "^6.1.3",
 		"commitlint-config-nickccm": "link:./packages/commitlint-config-nickccm",
+		"eslint-config-nickccm": "link:./packages/eslint-config-nickccm",
+		"eslint": "^4.19.1",
 		"husky": "^0.14.3",
 		"ignore-sync": "^1.1.0",
 		"lerna": "^2.9.1",

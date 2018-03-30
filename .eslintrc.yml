@@ -1,0 +1,5 @@
+extends: ./packages/eslint-config-nickccm/index.js
+
+parserOptions:
+  ecmaVersion: 8
+  sourceType: 'script'
