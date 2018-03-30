@@ -2,7 +2,9 @@
 	"name": "linter-hell",
 	"version": "0.0.1",
 	"description": "My personal linting tools config",
-	"keywords": ["linter"],
+	"keywords": [
+		"linter"
+	],
 	"author": "Nick Chan",
 	"license": "MIT",
 	"dependencies": {},
@@ -12,8 +14,8 @@
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^6.1.3",
-		"@commitlint/config-conventional": "^6.1.3",
 		"@commitlint/prompt": "^6.1.3",
+		"commitlint-config-nickccm": "link:./packages/commitlint-config-nickccm",
 		"husky": "^0.14.3",
 		"ignore-sync": "^1.1.0",
 		"lerna": "^2.9.1",

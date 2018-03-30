@@ -1,0 +1,19 @@
+{
+  "name": "commitlint-config-nickccm",
+  "version": "0.0.1",
+  "description": "my personal commitlint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "commitlint"
+  ],
+  "author": {
+    "name": "Nick Chan"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@commitlint/config-conventional": "^6.1.3"
+  }
+}
