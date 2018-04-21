@@ -1,4 +1,4 @@
-extends: ./packages/eslint-config-nickccm/index.js
+extends: eslint-config-nickccm
 
 parserOptions:
   ecmaVersion: 8
